@@ -11,6 +11,12 @@ This project explores the statistical properties of a **Gaussian random walk**, 
 - Assess autocorrelation in returns and squared returns.
 - Understand the limitations of Gaussian random walks compared to real financial assets.
 
+## Tools and Libraries
+The analysis was conducted using Python with the following libraries:  
+- **numpy**: for numerical computations and logarithmic transformations.  
+- **matplotlib**: for visualizations of distributions and time series.  
+- **scipy** and **statsmodels**: for statistical tests, regressions, and autocorrelation analysis.
+
 ## Key Findings
 
 - **Returns are normally distributed**, while prices are log-normally distributed due to exponentiation.
@@ -19,5 +25,7 @@ This project explores the statistical properties of a **Gaussian random walk**, 
 - **Autocorrelation is negligible**, indicating no temporal memory or volatility clustering.
 - Gaussian random walks capture basic statistical properties but **do not reproduce features observed in real markets** such as heavy tails, long-term dependence, or volatility clustering.
 
-
+## References
+- Mantegna, R. & Stanley, H. *An Introduction to Econophysics*. Cambridge University Press.  
+- MIT OpenCourseWare: *Mathematics in Applications to Finance*.  
 
